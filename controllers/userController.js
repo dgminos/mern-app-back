@@ -1,4 +1,5 @@
-import User  from '../models/UserModel.js'
+//import User  from '../models/UserModel.js'
+import User  from '../models/userModel'
 import jwt from 'jsonwebtoken'
 
 const createToken = (_id) => {
