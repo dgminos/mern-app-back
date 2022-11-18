@@ -17,7 +17,7 @@ app.use((req, res, next) => {
   next()
 })
 
-app.get('/', (req, res) => res.send('Hello World!'))
+//app.get('/', (req, res) => res.send('Hello World!'))
 
 // routes
 app.use('/api/tasks', tasksRouter)
